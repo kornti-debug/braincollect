@@ -8,7 +8,7 @@
 
 ## Expo-specific agent setup
 
-- Install Expo's official Codex plugin (`expo@openai-curated`) when implementation begins. Expo documents that it provides version-aware skills and the Expo MCP server; the project can then use current SDK guidance instead of relying on model memory. [Expo's AI agents guide](https://docs.expo.dev/agents/) [Codex and Expo setup](https://docs.expo.dev/agents/codex/)
+- Ensure Expo's official Codex plugin is installed on the active development host. It provides Expo-specific skills and the Expo MCP server; the project can then use current SDK guidance instead of relying on model memory. The current host has `expo@openai-curated-remote` 1.0.2 installed; on another host, install Expo from its configured curated marketplace or follow [Expo's AI agents guide](https://docs.expo.dev/agents/) and [Codex and Expo setup](https://docs.expo.dev/agents/codex/).
 - Scaffold with the current `create-expo-app` workflow. Merge its SDK-specific `AGENTS.md` guidance with the Braincollect instructions in the root `AGENTS.md`; keep project product rules intact.
 - Start with a small local vertical slice and sample content. Add device capture and remote AI integrations after the study flow is understandable.
 - Use Expo Go for early screens and interaction when the selected packages support it. Move to a development build when a native dependency or app configuration requires one.

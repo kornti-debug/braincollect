@@ -16,6 +16,7 @@
 - No Expo app, package manifest, backend, database schema, or provider integrations.
 - No tested OCR/question-generation pipeline, sample evaluation set, or product research.
 - No final decisions on target age group, country/language, input formats, providers, or deployment.
+- Expo's official Codex plugin is installed on the current development host; other developers may need to install it in their own Codex environment.
 
 ## Current recommendations
 
