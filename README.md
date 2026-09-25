@@ -2,7 +2,7 @@
 
 Braincollect is a mobile-first study game: students turn their own study material into source-grounded quiz sessions and earn collectible creatures as they learn.
 
-The project is at the concept and planning stage. The product and engineering source of truth is in [`docs/`](docs/).
+The Expo/React Native app shell is scaffolded. Product and engineering guidance is in [`docs/`](docs/).
 
 ## Start here
 
@@ -15,8 +15,17 @@ The project is at the concept and planning stage. The product and engineering so
 
 GitHub: [kornti-debug/braincollect](https://github.com/kornti-debug/braincollect)
 
-The linked GitHub repository was empty when checked on 2026-09-25. This workspace is now its local Git checkout; the initial commit contains the planning documents and `.gitignore`. No app code or dependencies have been created yet.
+The linked GitHub repository is checked out locally on `main`. The initial commits establish the documentation baseline and Expo agent setup. The app currently contains only the generated navigation shell; the study flow, local data, camera, OCR, and AI integration are not implemented yet.
 
 ## Recommended implementation direction
 
 Use React Native with Expo and TypeScript. This is an app-first learning experience with short, turn-based quiz encounters and collection screens; it does not need a full game engine unless the design later grows into real-time action, physics, or complex scenes. See [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) for the proposed boundaries and [`docs/AI_WORKFLOW.md`](docs/AI_WORKFLOW.md) for the Codex/Expo workflow.
+
+## Run the app
+
+```bash
+npm install
+npm start
+```
+
+With an Android emulator running, press `a` in the Expo terminal UI. A phone with Expo Go can also open the QR code. See Expo's [start developing guide](https://docs.expo.dev/get-started/start-developing/) for device and emulator steps.

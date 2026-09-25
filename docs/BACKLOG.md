@@ -12,6 +12,7 @@ This is a planning backlog, not a promise of delivery. Items are grouped by what
 
 ## First vertical slice
 
+- [x] Scaffold an Expo Router app shell with TypeScript.
 - [ ] Define typed domain models for source material, questions, attempts, review state, and rewards.
 - [ ] Build capture/entry → editable text → question preview → short quiz → result/reward.
 - [ ] Require traceable evidence on generated questions and validate evidence against normalized source text.

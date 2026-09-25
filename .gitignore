@@ -5,6 +5,19 @@ dist/
 web-build/
 coverage/
 *.tsbuildinfo
+expo-env.d.ts
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+.metro-health-check*
+/ios
+/android
+# Local create-expo-app scratch directory, excluded from the project root.
+/app-bootstrap/
 
 # Local environment files (commit only safe example files)
 .env*
@@ -17,6 +30,7 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 *.log
+*.pem
 
 # Operating system files
 .DS_Store

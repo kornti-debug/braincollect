@@ -11,6 +11,8 @@ Milestones are outcome-based and intentionally have no dates. Move to the next m
 
 **Exit:** the target use case and a credible scan-to-useful-question path are specific enough to prototype.
 
+**Current status:** app shell created; the audience, first input type, and source-quality evaluation remain open.
+
 ## 1. Learning-loop prototype
 
 - Create the Expo app shell and one end-to-end flow using sample or entered text.

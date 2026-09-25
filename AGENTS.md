@@ -24,6 +24,14 @@
 - Follow the existing project conventions once code is introduced. Prefer small, typed interfaces at external service boundaries.
 - Do not claim that a build, device check, or other validation passed unless it was actually run.
 
+## Expo guidance
+
+- This app uses Expo SDK 57, TypeScript, and Expo Router. Routes live in `app/`; keep components, state, and data outside that route directory.
+- Before using Expo or React Native APIs, check the SDK version in `package.json` and use its matching official documentation and the installed Expo skills.
+- Add Expo packages with `npx expo install <package>` so versions match the SDK.
+- Try Expo Go first. Use a development build only when the app needs native code or configuration that Expo Go cannot provide.
+- From the project root, `npm start` starts Metro, `npm run android` targets an Android emulator/device, and `npm run web` opens the web version.
+
 ## Keeping project context current
 
 - Update [`docs/PROJECT_STATE.md`](docs/PROJECT_STATE.md) when the implementation status or resolved choices materially change.
